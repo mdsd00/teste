@@ -1,0 +1,44 @@
+/* required styles */
+
+	.legend, .temporal-legend {
+   		padding: 6px 10px;
+		line-height: 15px;
+    		font: 14px/10px Arial, Helvetica, sans-serif;
+   		background: white;
+    		background: rgba(255,255,255,0.8);
+    		box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    		border-radius: 5px;
+	}
+	#legendTitle {
+  	  	text-align: left;
+   	 	margin-bottom: 0px;
+   		font-variant: 14px/10px Arial;
+	}
+	.symbolsContainer {
+		padding: 6px 40px;
+    		float: left;
+		margin-left: 18px;
+		margin-bottom: -5px;
+	}
+	.legendCircle {
+     	border-radius:50%; 
+     	border: 1px solid #736fd6; 
+     	background: rgba(115, 111, 214, .4);
+	 	display: inline-block;
+	}
+	.legendValue {
+    		position: absolute;
+    		right: 8px;
+	}
+	
+	.legend .circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: 8px;
+	}
+
+	 .popup {
+		text-align: center;
+	}
+	
